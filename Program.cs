@@ -17,6 +17,9 @@ namespace Zoolandia
 
                 Console.WriteLine(JoshAnimal.Cuteness);
                 Console.WriteLine(JoshAnimal.Name);
+
+                var Bob = new Lemur();
+                Bob.FoodAmount();
         } 
     }
 }

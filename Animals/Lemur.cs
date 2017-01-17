@@ -1,3 +1,4 @@
+using System;
 namespace Zoolandia.Animals
 {
     // The species for a Lemur
@@ -7,5 +8,10 @@ namespace Zoolandia.Animals
         public string food { get; set; }
 
         public bool fur { get; set; }
+
+        public override void FoodAmount() 
+        {
+            Console.WriteLine("I need 3 lbs. of food per day.");
+        }
     }
 }
