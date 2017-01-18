@@ -14,7 +14,7 @@ namespace Zoolandia.Animals
 
         public virtual void FoodAmount()
         {
-            Console.WriteLine("I need to eat 5 lbs. of food per day.");
+            Console.WriteLine("I need to eat");
         }
 
         public static void sleep ()

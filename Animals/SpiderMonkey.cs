@@ -1,3 +1,4 @@
+using System;
 namespace Zoolandia.Animals
 {
     // The species for a Spider Monkey
@@ -7,5 +8,11 @@ namespace Zoolandia.Animals
         public string food { get; set; }
 
         public bool fur { get; set; }
+
+        public override void FoodAmount() 
+        {
+            base.FoodAmount();
+            Console.WriteLine("5 lbs. of food per day.");
+        }
     }
 }

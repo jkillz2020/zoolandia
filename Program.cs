@@ -20,6 +20,12 @@ namespace Zoolandia
 
                 var Bob = new Lemur();
                 Bob.FoodAmount();
+
+                var Jerry = new RedPanda();
+                Jerry.FoodAmount();
+
+                var Bill = new SpiderMonkey();
+                Bill.FoodAmount();
         } 
     }
 }

@@ -11,7 +11,8 @@ namespace Zoolandia.Animals
 
         public override void FoodAmount() 
         {
-            Console.WriteLine("I need 3 lbs. of food per day.");
+            base.FoodAmount();
+            Console.WriteLine("3 lbs. of food per day.");
         }
     }
 }
