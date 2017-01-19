@@ -14,5 +14,9 @@ namespace Zoolandia.Animals
             base.FoodAmount();
             Console.WriteLine("3 lbs. of food per day.");
         }
+        public Lemur(string name)
+        {
+            this.Name = name;
+        }
     }
 }
